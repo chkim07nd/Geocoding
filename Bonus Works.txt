@@ -1,0 +1,20 @@
+As for the extra credits,
+I've included two functionalities.
+First one is the reverse geocoding, allowing the user
+to look up location with latitude and longitude,
+not just the location name.
+This could have been a real simple function, just
+moving the map to the latitude and longitude the user specified.
+However, my second function does not allow it to be that simple.
+My second function was to display the flag of the country
+the location is in. Because of this function, I had to use
+Google Maps API for both location name and coordinates.
+I got the JSON file from Google, then pulled out the country name.
+Then the country name was sent to geotree API which sent back the
+image file for me to display. For this, I had to set up the downloader
+class for the app.
+
+I think my functions got the first 5 bonus points covered, using the 
+country name as that extra information. As for the second bonus,
+reverse geocoding using Google Maps API/displaying flag by downloading image
+probably doesn't deserve all 15 points- I'd think 7-8 points at best.
